@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Site estático sem backend: envia os dados via WhatsApp.
-            // TODO: troque WHATSAPP_NUMBER pelo número real quando disponível.
+            // Número fictício (projeto de demonstração/portfólio).
             const WHATSAPP_NUMBER = '5521999999999';
             const serviceLabel = document.getElementById('service').selectedOptions[0].text;
             const lines = [

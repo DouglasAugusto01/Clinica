@@ -35,12 +35,12 @@ O site não tem backend. Ao enviar, o formulário valida os campos no
 navegador e abre uma conversa no WhatsApp com os dados preenchidos
 (usando o número definido em `WHATSAPP_NUMBER` em `script.js`).
 
-## Pendências (TODO)
+## Dados de contato
 
-- [ ] Substituir o telefone/WhatsApp placeholder `(21) 99999-9999` pelo número real
-      (em `index.html` e na constante `WHATSAPP_NUMBER` de `script.js`).
-- [ ] Substituir o e-mail placeholder `contato@roselygirardin.com`.
-- [ ] Adicionar os links reais de Facebook/Instagram no rodapé.
+Telefone, WhatsApp, e-mail e redes sociais exibidos no site são **fictícios**,
+usados apenas para fins de demonstração/portfólio. Para usar em produção com
+um cliente real, troque os valores em `index.html` e a constante
+`WHATSAPP_NUMBER` em `script.js`.
 
 ## Deploy
 
